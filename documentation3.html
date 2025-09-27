@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Networking Module</title>
+
+  <style>
+    :root {
+      --primary: #06d6a0;
+      --secondary: #118ab2;
+      --accent: #ffd166;
+      --light: #f0f0f0;
+      --dark: #073b4c;
+      --transition: all 0.3s ease;
+      --shadow: 0 4px 12px rgba(0,0,0,0.1);
+      --border-radius: 12px;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      border-left: 5px solid var(--secondary);
+      padding-left: 10px;
+    }
+
+    p {
+      margin: 1rem 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      width: 70px;
+      height: 3px;
+      background-color: var(--accent);
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -10px;
+      border-radius: 2px;
+    }
+
+    .card {
+      background: #dff6f0;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      transition: var(--transition);
+      border-left: 5px solid var(--primary);
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    ul {
+      margin: 1rem 0 1rem 1.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .day-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.2rem;
+      background: var(--secondary);
+      color: #ffffff;
+      margin-top: 2rem;
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="section-title">
+      <h1>NETWORKING MODULE</h1>
+    </div>
+
+    <div class="card">
+      <p>
+        <strong>Networking</strong> stands for <em>Interconnected systems that exchange data and resources</em>. It enables communication between computers, mobile devices, and servers across local and global environments. This module covered the essentials of how networks operate, their architecture, protocols, and real-world applications.
+      </p>
+    </div>
+
+    <div class="day-box">
+      <div class="card">
+        <h2>Day 1</h2>
+        <h3>Introduction to Networking</h3>
+        <img src="c:\Users\Shivrudra\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\CC6EF8CB8DF3AF5693726838CD728163\WhatsApp Image 2025-09-27 at 14.54.46_0c292d0a.jpg" height="200" width="200">
+        <ul>
+          <li>Definition and importance of networking.</li>
+          <li>Types of networks: LAN, WAN, MAN, PAN.</li>
+          <li>Network characteristics: scalability, reliability, latency.</li>
+          <li>Basic components: router, switch, hub, modem, NIC.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Day 2</h2>
+        <h3>Network Topologies</h3>
+        <img src="c:\Users\Shivrudra\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\FF450BA01B0CA2695D62525505DD80EB\WhatsApp Image 2025-09-27 at 14.54.46_3c8e6f59.jpg" height="200" width="200">
+        <ul>
+          <li><strong>Bus Topology</strong>: Single cable backbone, simple but limited.</li>
+          <li><strong>Ring Topology</strong>: Circular data flow, predictable but vulnerable.</li>
+          <li><strong>Star Topology</strong>: Central hub, scalable and easy to manage.</li>
+          <li><strong>Mesh Topology</strong>: Multiple paths, high reliability.</li>
+          <li><strong>Hybrid Topology</strong>: Combination of two or more topologies.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Day 3</h2>
+        <h3>OSI Model</h3>
+        <ul>
+          <li><strong>OSI</strong>: Open Systems Interconnection model.</li>
+          <img src="c:\Users\Shivrudra\Downloads\osi model layer.png" height ="200" width="200">
+          <li>7 Layers: Physical, Data Link, Network, Transport, Session, Presentation, Application.</li>
+          <li>Each layer has specific responsibilities in data transmission.</li>
+          <li>Helps standardize network communication and troubleshooting.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Day 4</h2>
+        <h3>Protocols & Services</h3>
+        <ul>
+          <li><strong>UDP</strong>: User Datagram Protocol — fast, connectionless.</li>
+          <li><strong>DNS</strong>: Domain Name System — resolves domain names to IP addresses.</li>
+          <li><strong>DHCP</strong>: Dynamic Host Configuration Protocol — assigns IPs automatically.</li>
+          <li>Other protocols: TCP, FTP, HTTP, HTTPS.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Day 5</h2>
+        <h3>URL & Web Architecture</h3>
+        <ul>
+          <li>URL structure: protocol, domain, path, query string.</li>
+          <li>Client-server model: request-response cycle.</li>
+          <li>DNS lookup and IP resolution.</li>
+          <li>Secure communication using HTTPS and SSL/TLS.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Day 6</h2>
+        <h3>Network Design & Simulation</h3>
+        <ul>
+          <li>Designing small office/home networks.</li>
+          <li>Using simulation tools like Cisco Packet Tracer.</li>
+          <li>Assigning IPs, configuring routers and switches.</li>
+          <li>Testing connectivity and troubleshooting.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Final Group Project</h2>
+      <p>
+        As a culmination of our learning, we built a Gen Z-focused chat application called <strong>Zinq</strong>. This app is designed for vibrant, real-time communication and reflects modern aesthetics and usability.
+      </p>
+      <ul>
+        <li>Built using HTML, CSS, JavaScript, Node.js, and WebSocket.</li>
+        <li>Features include emojis, group chat, and mobile-first design.</li>
+        <li>Real-time messaging powered by socket programming.</li>
+        <li>Collaborative development using Git and agile workflow.</li>
+      </ul>
+       <h3> MENTOR = Gourav sir</h3>
+    </div>
+  </div>
+   
+
+  <footer>
+    <p>Networking Module - Final Project: Zinq Chat App</p>
+  </footer>
+ 
+
+</body>
+</html>
+
