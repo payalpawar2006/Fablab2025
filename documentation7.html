@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUTO CAD Module</title>
+
+  <style>
+    :root {
+      --primary: #f93437;
+      --secondary: #F58A07;
+      --accent: #00C49A;
+      --light: #0b0a15;
+      --dark: #222;
+      --transition: all 0.3s ease;
+      --shadow: 0 5px 15px rgba(0,0,0,0.15);
+      --border-radius: 15px;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: var(--light);
+      color: var(--dark);
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      border-left: 6px solid var(--secondary);
+      padding-left: 10px;
+    }
+
+    p {
+      margin: 0.8rem 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 0;
+    }
+
+    /* Section Title */
+    .section-title {
+      text-align: center;
+      margin-bottom: 3rem;
+      position: relative;
+    }
+
+    .section-title h1 {
+      display: inline-block;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      width: 80px;
+      height: 4px;
+      background-color: var(--secondary);
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -10px;
+      border-radius: 2px;
+    }
+
+    /* Card Box Styling */
+    .card {
+      background: #c7c7c7;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      transition: var(--transition);
+      border: 2px solid transparent;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      border: 2px solid var(--primary);
+    }
+
+    /* Image Styling */
+    .card img {
+      display: block;
+      margin: 1rem auto;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      max-width: 100%;
+      height: auto;
+      transition: var(--transition);
+    }
+
+    .card img:hover {
+      transform: scale(1.05);
+    }
+
+    /* List Styling */
+    ul, ol {
+      margin: 1rem 0 1rem 1.5rem;
+    }
+
+    ul li, ol li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Flex Layout for Days */
+    .day-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: var(--primary);
+      color: #f32323;
+      margin-top: 2rem;
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+    }
+   
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="section-title">
+      <h1>LASER CUTTING</h1>
+    </div>
+
+    <div class="card">
+      <p>
+       Laser cutting is a modern manufacturing process that uses a high-powered laser beam to cut different types of materials. The laser focuses intense light energy into a small point, generating enough heat to melt, burn, or vaporize the material along the cutting path. The process is computer-controlled, which makes it highly accurate and reliable for creating both simple and complex shapes. It can be used on a wide variety of materials such as wood, acrylic, plastic, cardboard, fabric, and metals. <BR>
+        Since the tool does not physically touch the surface, there is less chance of damage or distortion to the material. Laser cutting is commonly guided by CAD (Computer-Aided Design) files that provide exact shapes and designs to be cut with precision. Different types of lasers are used depending on the material, such as CO₂ lasers for non-metals and fiber lasers for metals. The process is not only useful for cutting but also for engraving designs on surfaces. It provides smooth edges, reduces material waste, and requires little finishing work. Laser cutting is faster than many traditional cutting methods and is widely used in industries like automotive, electronics, signage, jewelry, and manufacturing.<BR>
+             The thickness of material that can be cut depends on the laser power, and more powerful lasers can cut through thicker metals. Safety precautions are very important because the laser beam can cause burns or eye damage, and exhaust systems are often used to remove harmful fumes and particles. This technology has become essential for creating prototypes, models, machine parts, and decorative items. Laser cutting combines speed, precision, and flexibility, making it one of the most efficient methods of modern fabrication.
+
+
+      </p>
+    </div>
+
+    <!-- Day 1 -->
+    <div class="day-box">
+      <div class="card">
+        <h2>Day 1</h2>
+        <img src="c:\Users\Shivrudra\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\FEA16E782BC1B1240E4B3C797012E289\WhatsApp Image 2025-09-22 at 01.45.23_5615bf1b.jpg"height=300 width=300 Intro">
+        <ul>
+          <li>During this module, I gained knowledge and hands-on experience in:<br>
+
+1. Introduction to Laser Cutting<br>
+
+Understood the basic working principle of a laser cutting machine.<br>
+
+Learned about the parts of the machine (laser head, bed, controller, exhaust, safety features).<br>
+
+Understood the role of laser power and speed settings in cutting different materials.<br><br>
+
+
+
+2. File Preparation<br>
+
+Learned how to create DXF files (2D vector format) with 3mm thickness.<br>
+
+Understood how to export designs from software (AutoCAD / Fusion 360 / CorelDRAW) for laser cutting.<br>
+
+Learned about setting dimensions accurately before importing to machine.<br>
+
+</li>
+
+ 
+<img src="c:\Users\Shivrudra\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\94130EA17023C4837F0DCDDA95034B65\WhatsApp Image 2025-09-22 at 01.45.22_1effddfe.jpg" height="300" width="300">
+
+.
+          
+        </ul>
+      </div>
+
+      <!-- Day 2 -->
+      <div class="card">
+        <h2>Day 2</h2>
+        <img src="c:\Users\Shivrudra\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\2E6D9C6052E99FCDFA61D9B9DA273CA2\WhatsApp Image 2025-09-22 at 01.45.23_5634721a.jpg"height=300 width=300">
+        <h3>Laser cutting  Workflow</h3>
+        <ul>
+          <li>Software Setup & Introduction
+</li>
+          <li>3. Machine Operation<br>
+
+Learned how to import DXF files into the machine using laser cutting software.<br>
+
+Understood parameter settings like cutting, engraving, speed, and power.<br>
+
+Learned about safety precautions while operating the machine (wearing safety glasses, handling materials carefully, using exhaust properly).<br><br>
+
+
+
+4. Materials Used<br>
+
+Explored different materials for cutting and engraving:<br>
+
+Cardboard (lightweight, good for prototypes).<br>
+
+Acrylic sheets (durable, transparent/colored, used for models).<br>
+
+MDF/Wood (strong, used for structural parts).<br>
+
+
+Learned how each material requires different laser settings for smooth cutting.
+
+
+
+
+
+.</li>
+          
+
+</p><br>
+        
+        <ol>
+          <li>1. Individual Project – Krishna Design<br>
+
+Created a DXF file with 3mm thickness.<br>
+
+Cut on cardboard material using the laser cutter.<br>
+
+Engraved an image of Lord Krishna on the design as my first project.<br>
+
+Learned how engraving requires different speed and power than cutting.<br>
+
+
+
+
+
+</li>
+         
+        </ol>
+        <h3>Small Project: Krishna photo</h3>
+        <img src="c:\Users\Shivrudra\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\E7D4C8D4FE04D9B4539A075D809C6D01\WhatsApp Image 2025-09-22 at 01.47.56_971825eb.jpg" height="400" width="400" alt="pikachu Project">
+      </div>
+    </div>
+
+    <!-- Day 3 & Day 4 -->
+    <div class="day-box">
+      <div class="card">
+        <h2>Day 3</h2>
+        <img src="c:\Users\Shivrudra\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\9D03333181FB0F6BD495E8B157259880\WhatsApp Image 2025-09-22 at 01.10.26_c0fe8289.jpg" height="400" width="400" alt="Day 3 ">
+        <ul>
+          <li>🔹 Key Skills Gained<br>
+
+File preparation in DXF format.<br>
+
+Operating a laser cutting machine safely and effectively.<br>
+
+Understanding material properties and laser settings.<br>
+
+Creating 2D to 3D projects using interlocking methods.<br>
+
+Team collaboration on big projects.<br><br>
+
+
+
+---
+
+🔹 Future Applications<br>
+
+Laser cutting can be used in prototyping, architectural models, decorative items, and engraved designs.<br>
+
+Helpful in engineering projects, product design, and entrepreneurship (custom gifts, jewelry, boards, etc.).<br>
+
+Combination with 3D printing and Fusion 360 can create advanced hybrid projects.<br>
+
+
+
+
+
+
+</li><br><br>
+<h2>FINAL PROJECT WITH LASER CUTTING</h2>
+<p>Worked with group members to design and cut parts for a 3D chess model.<br>
+
+Used acrylic and cardboard sheets for making pieces and board.<br>
+
+Learned about assembly of laser-cut parts (interlocking slots, fitting precision).<br>
+
+This project helped me understand teamwork, accuracy in design, and large-scale cutting.<br><br>
+<h3> Mentor - Vansh sir</h3>
+
+</p>
+<IMG SRC="c:\Users\Shivrudra\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\922073B18844540F8FE447C3E93A25B7\WhatsApp Image 2025-09-22 at 01.46.12_fc4546eb.jpg" height="500" width="500">
+   <img src="c:\Users\Shivrudra\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\59B1DEFF341EDB0B76ACE57820CEF237\WhatsApp Image 2025-09-22 at 01.46.13_abb4202b.jpg" height="500" width="500">        
