@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python & AIML Module</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fce4ec, #f3e5f5);
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.8rem;
+      color: #d81b60;
+      margin-bottom: 1rem;
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #ad1457;
+      border-left: 5px solid #d81b60;
+      padding-left: 10px;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    pre {
+      background: #212121;
+      color: #f1f1f1;
+      padding: 1rem;
+      border-radius: 12px;
+      overflow-x: auto;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+      box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #d81b60;
+      color: white;
+      border-radius: 0 0 20px 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Python & AIML Module</h1>
+
+    <div class="section">
+      <h2>Overview</h2>
+      <p>
+        This module covered the fundamentals of Python programming and Artificial Intelligence & Machine Learning (AIML).  
+        The training was divided into <strong>3 days of Python (NumPy, Pandas, Matplotlib)</strong> and <strong>2 days of AIML</strong>.  
+        I learned how coding, data analysis, and machine learning come together to build intelligent systems.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Day 1 – Python Basics</h2>
+      <ul>
+        <li>Introduction to Python & IDEs (Jupyter, VS Code)</li>
+        <li>Variables, data types, operators</li>
+        <li>Control structures: if-else, loops</li>
+        <li>Functions & basic programs</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Day 2 – NumPy Deep Dive</h2>
+      <ul>
+        <li>Creating 1D, 2D, and 3D arrays</li>
+        <li>Array indexing, slicing, reshaping</li>
+        <li>Mathematical operations: mean, median, std</li>
+        <li>Broadcasting and vectorized operations</li>
+        <li>Working with random numbers and linspace</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Day 3 – Pandas for Data Analysis</h2>
+      <ul>
+        <li>Creating Series and DataFrames</li>
+        <li>Reading CSV and Excel files</li>
+        <li>Filtering rows and columns</li>
+        <li>Handling missing data</li>
+        <li>GroupBy, merge, sort, and pivot tables</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Day 3 – Matplotlib Visualization</h2>
+      <ul>
+        <li>Line, bar, pie, scatter, histogram, box plots</li>
+        <li>Customizing plots: titles, labels, legends</li>
+        <li>Subplots and figure layout</li>
+        <li>Combining Pandas with Matplotlib</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Day 4 – AIML Concepts</h2>
+      <ul>
+        <li>What is AI, ML, and Deep Learning?</li>
+        <li>Types of ML: Supervised, Unsupervised, Reinforcement</li>
+        <li>Training vs Testing data</li>
+        <li>Evaluation metrics: accuracy, precision, recall</li>
+        <li>Real-world applications: chatbots, vision, NLP</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Day 5 – AIML Code Implementation</h2>
+      <h3>Sample AIML Code:</h3>
+      <pre><code># AIML Basics
+
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeClassifier
+import numpy as np
+
+# Linear Regression
+X = np.array([[1], [2], [3], [4]])
+y = np.array([2, 4, 6, 8])
+lr_model = LinearRegression()
+lr_model.fit(X, y)
+print("Prediction for 5:", lr_model.predict([[5]]))
+
+# Decision Tree
+X_tree = [[0], [1], [2], [3]]
+y_tree = ["cat", "dog", "dog", "cat"]
+dt_model = DecisionTreeClassifier()
+dt_model.fit(X_tree, y_tree)
+print("Prediction for 1.5:", dt_model.predict([[1.5]]))
+
+# AIML Summary
+'''
+AI: Machines that mimic human intelligence.
+ML: Algorithms that learn from data.
+Types:
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+'''
+      </code></pre>
+      <h3>Mentor - shrideep sir<br>
+        prathmesh sir<br>
+        hriday sir<br>
+      </h3>
+    </div>
+  </div>
+
+  <footer>
+    Python & AIML Module – Documented with ❤️ in Shegaon
+  </footer>
+</body>
+</html>
+
+
+
