@@ -145,33 +145,39 @@
       <h3>Sample AIML Code:</h3>
       <pre><code># AIML Basics
 
-from sklearn.linear_model import LinearRegression
-from sklearn.tree import DecisionTreeClassifier
-import numpy as np
+# Library Information System using OOP<br>
 
-# Linear Regression
-X = np.array([[1], [2], [3], [4]])
-y = np.array([2, 4, 6, 8])
-lr_model = LinearRegression()
-lr_model.fit(X, y)
-print("Prediction for 5:", lr_model.predict([[5]]))
+# Class for Book<br>
+class Book:<br>
+    def _init_(self, title, author, isbn):<br>
+        self.title = title<br>
+        self.author = author<br>
+        self.isbn = isbn<br>
+        self.available = True  # By default book is available<br><br>
 
-# Decision Tree
-X_tree = [[0], [1], [2], [3]]
-y_tree = ["cat", "dog", "dog", "cat"]
-dt_model = DecisionTreeClassifier()
-dt_model.fit(X_tree, y_tree)
-print("Prediction for 1.5:", dt_model.predict([[1.5]]))
+    def _str_(self):<br>
+        return f"{self.title} by {self.author} (ISBN: {self.isbn}) - {'Available' if self.available else 'Not Available'}"<br<br>>
 
-# AIML Summary
-'''
-AI: Machines that mimic human intelligence.
-ML: Algorithms that learn from data.
-Types:
-- Supervised Learning
-- Unsupervised Learning
-- Reinforcement Learning
-'''
+
+# Class for Member<br>
+class Member:<br>
+    def _init_(self, name, member_id):<br>
+        self.name = name<br>
+        self.member_id = member_id<br>
+        self.borrowed_books = []<br><br>
+
+    def borrow_book(self, book):<br>
+        if book.available:<br>
+            self.borrowed_books.append(book)<br>
+            book.available = False<br>
+            print(f"{self.name} borrowed {book.title}")<br>
+        else:<br>
+            print(f"Sorry, {book.title} is not available.")<br><br>
+
+    def return_book(self, book):<br>
+        if book in self.borrowed_books:<br>
+            self.borrowed_books.remove(book)<br>
+            book.available<br>
       </code></pre>
       <h3>Mentor - shrideep sir<br>
         prathmesh sir<br>
@@ -185,6 +191,7 @@ Types:
   </footer>
 </body>
 </html>
+
 
 
 
